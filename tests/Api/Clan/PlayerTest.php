@@ -1,11 +1,10 @@
 <?php
 
-
-
+use PHPUnit\Framework\TestCase;
 use ClashOfClans\Api\Clan\Player;
 use ClashOfClans\Api\League\League;
 
-class PlayerTest extends PHPUnit_Framework_TestCase
+class PlayerTest extends TestCase
 {
     /** @var Player */
     protected $player;

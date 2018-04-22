@@ -1,9 +1,9 @@
 <?php
 
-
+use PHPUnit\Framework\TestCase;
 use ClashOfClans\Api\League\League;
 
-class LeagueTest extends PHPUnit_Framework_TestCase
+class LeagueTest extends TestCase
 {
     /** @var League */
     protected $league;

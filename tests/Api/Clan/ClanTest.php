@@ -1,12 +1,12 @@
 <?php
 
-
+use PHPUnit\Framework\TestCase;
 use ClashOfClans\Api\Clan\Badge;
 use ClashOfClans\Api\Clan\Clan;
 use ClashOfClans\Api\Clan\MemberList;
 use ClashOfClans\Api\Location\Location;
 
-class ClanTest extends PHPUnit_Framework_TestCase
+class ClanTest extends TestCase
 {
     /** @var Clan */
     protected $clan;

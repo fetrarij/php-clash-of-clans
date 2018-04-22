@@ -1,9 +1,9 @@
 <?php
 
-
+use PHPUnit\Framework\TestCase;
 use ClashOfClans\Api\Location\Location;
 
-class LocationTest extends PHPUnit_Framework_TestCase
+class LocationTest extends TestCase
 {
 
     public function testCannotInstantiateExternally()
